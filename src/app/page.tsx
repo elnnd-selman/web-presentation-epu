@@ -232,8 +232,8 @@ export default function Home() {
             {[
               { value: 107, label: 'Database Models' },
               { value: 300, label: 'Relationships', suffix: '+' },
-              { value: 98, label: 'Backend Complete', suffix: '%' },
-              { value: 1.5, label: 'Weeks to Launch' }
+              { value: 85, label: 'Backend Complete', suffix: '%' },
+              { value: 1-3, label: 'Weeks to Launch' }
             ].map(({ value, label, suffix = '' }, index) => (
               <div
                 key={label}
@@ -275,7 +275,7 @@ export default function Home() {
               {
                 icon: '⚡',
                 title: 'Backend Architecture',
-                status: '98% Complete',
+                status: '85% Complete',
                 statusColor: 'green',
                 description: 'NestJS backend with Prisma ORM, comprehensive API coverage',
                 features: ['107 database models designed', 'JWT authentication & RBAC', 'Rate limiting & security', 'Students & news feed APIs remaining']
@@ -774,57 +774,7 @@ export default function Home() {
             Enterprise University Portal - Built with passion for education technology
           </p>
           
-          {/* Footer Links */}
-          <div className="flex flex-wrap justify-center gap-8 mb-8">
-            <a
-              className="flex items-center gap-2 text-white/70 hover:text-white transition-colors hover:underline hover:underline-offset-4"
-              href="https://nextjs.org/learn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                aria-hidden
-                src="/file.svg"
-                alt="File icon"
-                width={16}
-                height={16}
-                className="dark:invert"
-              />
-              Learn Next.js
-            </a>
-            <a
-              className="flex items-center gap-2 text-white/70 hover:text-white transition-colors hover:underline hover:underline-offset-4"
-              href="https://vercel.com/templates?framework=next.js"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                aria-hidden
-                src="/window.svg"
-                alt="Window icon"
-                width={16}
-                height={16}
-                className="dark:invert"
-              />
-              View Examples
-            </a>
-            <a
-              className="flex items-center gap-2 text-white/70 hover:text-white transition-colors hover:underline hover:underline-offset-4"
-              href="https://nextjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                aria-hidden
-                src="/globe.svg"
-                alt="Globe icon"
-                width={16}
-                height={16}
-                className="dark:invert"
-              />
-              Go to nextjs.org →
-            </a>
-          </div>
+          
           
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {[
@@ -844,7 +794,6 @@ export default function Home() {
           
           <div className="text-center text-white/40 text-sm">
             <p>&copy; 2025 Erbil Polytechnic University. All rights reserved.</p>
-            <p className="mt-2">Built with ❤️ using modern web technologies</p>
           </div>
         </div>
       </footer>
