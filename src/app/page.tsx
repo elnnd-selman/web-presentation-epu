@@ -233,7 +233,7 @@ export default function Home() {
               { value: 107, label: 'Database Models' },
               { value: 300, label: 'Relationships', suffix: '+' },
               { value: 85, label: 'Backend Complete', suffix: '%' },
-              { value: 1-3, label: 'Weeks to Launch' }
+              { value: 3, label: 'Weeks to Launch' }
             ].map(({ value, label, suffix = '' }, index) => (
               <div
                 key={label}
@@ -403,7 +403,7 @@ export default function Home() {
                 title: 'Phase 1 - Foundation',
                 status: '✅ COMPLETED',
                 statusColor: 'green',
-                progress: 100,
+                progress: 90,
                 difficulty: '🔥 The Hardest Phase',
                 description: 'Backend & Database Architecture',
                 tasks: [
